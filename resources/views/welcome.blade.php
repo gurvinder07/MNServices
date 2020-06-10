@@ -252,93 +252,93 @@
         </div>
     </section>
 
-    <section class="ls section_padding_110 pricing">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-offset-2 col-md-8 text-center">
-                    <h2 class="highlight">Pricing Tables</h2>
-                    <hr class="inline-block divider_15 dividersize_2_30 main_bg_color2">
-                    <p>
-                        Picanha spare ribs pariatur velit pork sirloin. Consequat capicola pastrami non, minim ribeye meatloaf consectetur pork loin ground round bacon quis t-bone labore.
-                    </p>
-                </div>
-            </div>
-            <div class="row topmargin_75">
-                <div class="col-md-4 col-sm-6">
-                    <div class="price-table style1 after_cover bg_teaser">
-                        <img src="images/price-bg.jpg" alt="">
-                        <div class="plan-price grey">
-                            <span>$</span>
-                            <span>99</span>
-                            <p>/mounth</p>
-                        </div>
-                        <div class="plan-name">
-                            <h3>Regular Cleaning</h3>
-                        </div>
-                        <div class="features-list">
-                            <ul>
-                                <li class="enabled">Living room</li>
-                                <li class="enabled">Common areas</li>
-                                <li class="enabled">Kitchen</li>
-                                <li class="disabled">Dining room</li>
-                            </ul>
-                        </div>
-                        <div class="call-to-action">
-                            <a href="#" class="theme_button color1">Order Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="price-table style1 after_cover bg_teaser hover hovered">
-                        <img src="images/price-bg.jpg" alt="">
-                        <div class="plan-price grey">
-                            <span>$</span>
-                            <span>149</span>
-                            <p>/mounth</p>
-                        </div>
-                        <div class="plan-name">
-                            <h3>Green Cleaning</h3>
-                        </div>
-                        <div class="features-list">
-                            <ul>
-                                <li class="enabled">Kitchen</li>
-                                <li class="enabled">Living room</li>
-                                <li class="enabled">Dining room</li>
-                                <li class="disabled">Common areas</li>
-                            </ul>
-                        </div>
-                        <div class="call-to-action">
-                            <a href="#" class="theme_button color1">Order Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-offset-0 col-md-4 col-sm-offset-3 col-sm-6">
-                    <div class="price-table style1 after_cover bg_teaser">
-                        <img src="images/price-bg.jpg" alt="">
-                        <div class="plan-price grey">
-                            <span>$</span>
-                            <span>199</span>
-                            <p>/mounth</p>
-                        </div>
-                        <div class="plan-name">
-                            <h3>Deep Cleaning</h3>
-                        </div>
-                        <div class="features-list">
-                            <ul>
-                                <li class="enabled">Common areas</li>
-                                <li class="enabled">Dining Room</li>
-                                <li class="enabled">Living room</li>
-                                <li class="disabled">Kitchen</li>
-                            </ul>
-                        </div>
-                        <div class="call-to-action">
-                            <a href="#" class="theme_button color1">Order Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+{{--    <section class="ls section_padding_110 pricing">--}}
+{{--        <div class="container">--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-md-offset-2 col-md-8 text-center">--}}
+{{--                    <h2 class="highlight">Pricing Tables</h2>--}}
+{{--                    <hr class="inline-block divider_15 dividersize_2_30 main_bg_color2">--}}
+{{--                    <p>--}}
+{{--                        Picanha spare ribs pariatur velit pork sirloin. Consequat capicola pastrami non, minim ribeye meatloaf consectetur pork loin ground round bacon quis t-bone labore.--}}
+{{--                    </p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="row topmargin_75">--}}
+{{--                <div class="col-md-4 col-sm-6">--}}
+{{--                    <div class="price-table style1 after_cover bg_teaser">--}}
+{{--                        <img src="images/price-bg.jpg" alt="">--}}
+{{--                        <div class="plan-price grey">--}}
+{{--                            <span>$</span>--}}
+{{--                            <span>99</span>--}}
+{{--                            <p>/mounth</p>--}}
+{{--                        </div>--}}
+{{--                        <div class="plan-name">--}}
+{{--                            <h3>Regular Cleaning</h3>--}}
+{{--                        </div>--}}
+{{--                        <div class="features-list">--}}
+{{--                            <ul>--}}
+{{--                                <li class="enabled">Living room</li>--}}
+{{--                                <li class="enabled">Common areas</li>--}}
+{{--                                <li class="enabled">Kitchen</li>--}}
+{{--                                <li class="disabled">Dining room</li>--}}
+{{--                            </ul>--}}
+{{--                        </div>--}}
+{{--                        <div class="call-to-action">--}}
+{{--                            <a href="#" class="theme_button color1">Order Now</a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-md-4 col-sm-6">--}}
+{{--                    <div class="price-table style1 after_cover bg_teaser hover hovered">--}}
+{{--                        <img src="images/price-bg.jpg" alt="">--}}
+{{--                        <div class="plan-price grey">--}}
+{{--                            <span>$</span>--}}
+{{--                            <span>149</span>--}}
+{{--                            <p>/mounth</p>--}}
+{{--                        </div>--}}
+{{--                        <div class="plan-name">--}}
+{{--                            <h3>Green Cleaning</h3>--}}
+{{--                        </div>--}}
+{{--                        <div class="features-list">--}}
+{{--                            <ul>--}}
+{{--                                <li class="enabled">Kitchen</li>--}}
+{{--                                <li class="enabled">Living room</li>--}}
+{{--                                <li class="enabled">Dining room</li>--}}
+{{--                                <li class="disabled">Common areas</li>--}}
+{{--                            </ul>--}}
+{{--                        </div>--}}
+{{--                        <div class="call-to-action">--}}
+{{--                            <a href="#" class="theme_button color1">Order Now</a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-md-offset-0 col-md-4 col-sm-offset-3 col-sm-6">--}}
+{{--                    <div class="price-table style1 after_cover bg_teaser">--}}
+{{--                        <img src="images/price-bg.jpg" alt="">--}}
+{{--                        <div class="plan-price grey">--}}
+{{--                            <span>$</span>--}}
+{{--                            <span>199</span>--}}
+{{--                            <p>/mounth</p>--}}
+{{--                        </div>--}}
+{{--                        <div class="plan-name">--}}
+{{--                            <h3>Deep Cleaning</h3>--}}
+{{--                        </div>--}}
+{{--                        <div class="features-list">--}}
+{{--                            <ul>--}}
+{{--                                <li class="enabled">Common areas</li>--}}
+{{--                                <li class="enabled">Dining Room</li>--}}
+{{--                                <li class="enabled">Living room</li>--}}
+{{--                                <li class="disabled">Kitchen</li>--}}
+{{--                            </ul>--}}
+{{--                        </div>--}}
+{{--                        <div class="call-to-action">--}}
+{{--                            <a href="#" class="theme_button color1">Order Now</a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
 
     <section class="ds parallax page_info section_padding_75 columns_padding_0">
         <div class="container">

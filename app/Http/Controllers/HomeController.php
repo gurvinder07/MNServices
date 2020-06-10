@@ -2,7 +2,10 @@
 
 
 namespace App\Http\Controllers;
+use App\Mail\NewUserNotify;
+use App\Mail\sendMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 
 
@@ -18,13 +21,25 @@ return view('welcome');
 
 public function  getContact()
 {
-    return view('contact');
+    $popup =false;
+    return view('contact',compact('popup'));
 }
 
     public function  postContact (Request $request)
     {
+      $data = [
 
-        return view('index');
+          "name" => $request->name,
+          "email" => $request->email,
+          "phone" => $request->phone,
+          "subject"=>$request->subject,
+           "message"=> $request->message
+      ];
+
+
+        Mail::to('sainigurwinder07@gmail.com')->send(new sendMail($data));
+        $popup =true;
+        return view('contact',compact('popup'));
     }
 
     public function  getAbout()
