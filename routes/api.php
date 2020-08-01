@@ -13,6 +13,8 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/user', function (Request $request) {
+Route::get('user', function (Request $request) {
     return response()->json(["Status"=>"done"]);
 });
+
+Route::post('saveContactInfo', 'Api\DataController@postEmailData');
