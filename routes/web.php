@@ -15,11 +15,14 @@
 //    return view('welcome');
 //});
 
-Route::get('/', 'HomeController@getindex');
-
-Route::get('/index', 'HomeController@getindex')->name('index');
-Route::get('/contact', 'HomeController@getContact')->name('contact');
-
-Route::post('/contact', 'HomeController@postContact')->name('home.post.contact');
-
-Route::get('/about', 'HomeController@getAbout')->name('about');
+//Route::get('/', 'HomeController@getindex');
+//
+//Route::get('/index', 'HomeController@getindex')->name('index');
+//Route::get('/contact', 'HomeController@getContact')->name('contact');
+//
+//Route::post('/contact', 'HomeController@postContact')->name('home.post.contact');
+//
+//Route::get('/about', 'HomeController@getAbout')->name('about');
+Route::get('{reactRoutes}', function () {
+    return view('index'); // your start view
+})->where('reactRoutes', '^((?!api).)*$');
