@@ -19,32 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f493d4e0-a27f-4194-8880-234c80c8342f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/UI/GraphicalControl/Input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/UI/GraphicalControl/input.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/UI/MainBody/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/AppCustom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/AppCustom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/animations.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Main/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Main/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Router/Route.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Router/Route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/emails/newEnquiry.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/newEnquiry.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
-    </list>
+    <list default="true" id="f493d4e0-a27f-4194-8880-234c80c8342f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -205,7 +180,7 @@
       <workItem from="1587277467111" duration="876000" />
       <workItem from="1591815371718" duration="8882000" />
       <workItem from="1595654753498" duration="8626000" />
-      <workItem from="1596297778350" duration="27161000" />
+      <workItem from="1596297778350" duration="27478000" />
     </task>
     <servers />
   </component>
