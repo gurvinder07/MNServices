@@ -1,0 +1,95 @@
+.Input {
+
+    width :100%;
+    padding :10px;
+    box-sizing : border-box;
+}
+
+.TextArea {
+    text-align: center;
+    width :100%;
+    height:3rem;
+    padding :10px;
+    box-sizing : border-box;
+}
+
+
+.Label {
+
+    font-weight: bold;
+    display:block;
+    margin-bottom:8px;
+    margin-top: 8px;
+}
+
+.LabelCheckbox {
+
+    font-weight: bold;
+    display:inline-block;
+
+    margin-bottom:8px;
+    margin-top: 8px;
+}
+
+.InputElement {
+
+    outline: none;
+    border : 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.InputElementParallel {
+    outline: none;
+
+    border : 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: inline-block;
+
+    margin-left:0.7rem;
+    width: 70%;
+
+
+
+}
+.InputElement:hover{
+
+    outline: none;
+    background-color: #ccc;
+}
+
+.InputSubmit{
+
+    padding:10px 20px;
+    background-color: #FF9000;
+    color: white;
+}
+
+.CheckboxForm{
+    display:inline-block
+}
+
+@media only screen and (max-width: 450px) {
+    .Input, .Label , .InputElement {
+
+        width: 100%;
+    }
+
+    .LabelCheckbox{
+        display: inline;
+
+    }
+
+    .Label , .LabelCheckbox{
+
+        font-size: small;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

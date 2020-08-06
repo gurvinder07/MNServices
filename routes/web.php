@@ -23,6 +23,4 @@
 //Route::post('/contact', 'HomeController@postContact')->name('home.post.contact');
 //
 //Route::get('/about', 'HomeController@getAbout')->name('about');
-Route::get('{reactRoutes}', function () {
-    return view('index'); // your start view
-})->where('reactRoutes', '^((?!api).)*$');
+Route::view('/{path?}', 'index');

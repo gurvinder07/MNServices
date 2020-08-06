@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>New User Enquiry</title>
+        <title>New User Enquiry</title>
 </head>
 
 <body>
@@ -11,7 +11,8 @@
 
 <br/>
 <h4>Subject-</h4> {{$data['subject']}}
-<h4>Name-</h4> {{$data['name']}}
+<h4>First Name-</h4> {{$data['firstname']}}
+<h4>Last Name-</h4> {{$data['lastname']}}
 <h4>Email-</h4> {{$data['email']}}
 <h4>Phone-</h4> {{$data['phone']}}
 <h4>Message-</h4> {{$data['message']}}

@@ -5,11 +5,7 @@
 
 
     <title> @yield('title')</title>
-    <link rel="stylesheet" type="text/css" href="{{url('css/bootstrap.min.css')}}"/>
-    <link rel="stylesheet" type="text/css" href="{{url('css/animations.css')}}"/>
-    <link rel="stylesheet" type="text/css" href="{{url('css/fonts.css')}}"/>
-    <link rel="stylesheet" type="text/css" href="{{url('css/main.css')}}"/>
-    <link rel="stylesheet" type="text/css" href="{{url('css/main2.css')}}"/>
+
 
 
     <style>
