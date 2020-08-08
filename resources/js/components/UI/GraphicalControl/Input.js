@@ -1,7 +1,7 @@
 import React from 'react';
 import {useField} from 'formik';
 import classes from './input.module.css';
-import HOC from '../../HOC/Hoc'
+import HOC from '../../HOC/Hoc';
 import { Checkbox } from '@material-ui/core';
 
 const Input = (props) => {

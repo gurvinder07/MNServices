@@ -467,8 +467,8 @@ li{
     background-color: white;
     font: inherit;
     padding: 6px 10px;
-    margin:1% 1%;
-    width: 21%;
+
+    width: 100%;
     text-align: center;
 }
 
@@ -486,6 +486,13 @@ li{
     margin:1% 1%;
     width: 88%;
     text-align: center;
+}
+.edu-dates-group
+{
+    text-align: center;
+    margin:1% 1%;
+    width:31%;
+    display: inline-block;
 }
 
 .center{
@@ -505,6 +512,8 @@ li{
     padding:1%;
 
 }
+
+
 
 @media only screen and (max-width: 500px) {
 
@@ -564,7 +573,7 @@ li{
     }
 
 
-    .edu-label,.edu-textField,.edu-field, .edu-dateField ,.education-groups{
+    .edu-label,.edu-textField,.edu-field, .edu-dateField ,.education-groups,.edu-dates-group{
 
         display: block;
         width: 100%;

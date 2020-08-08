@@ -20,7 +20,7 @@ const Footer = () => {
             </ul>
 
             <ul className="footer-items"> <h2><Icon style={{ color: "#FF9000" }}>business</Icon> Company </h2>
-                <li><Icon style={{ color: "#FF9000" }}>work</Icon> <strong><Link to="/careers/application">Careers</Link></strong> </li>
+                <li><Icon style={{ color: "#FF9000" }}>work</Icon> <strong><Link to="/career/application">Careers</Link></strong> </li>
                 <li><Icon style={{ color: "#FF9000" }}>info</Icon> <strong> About Us</strong>  </li>
 
             </ul>

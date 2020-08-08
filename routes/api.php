@@ -18,3 +18,6 @@ Route::get('user', function (Request $request) {
 });
 
 Route::post('saveContactInfo', 'Api\DataController@postEmailData');
+
+
+Route::post('saveNewApplicationForm', 'Api\DataController@saveNewApplicationForm');

@@ -21,7 +21,14 @@ class Contact extends React.Component {
         const name = event.target.name;
         this.setState({[name]: event.target.value});
     }
+
+    sendRequest1 = () => {
+       alert("submitted");
+    }
+
     sendRequest = () => {
+
+
         Axios({
             method: 'post',
             url: 'https://mnservice.ca/api/saveContactInfo',
@@ -52,40 +59,82 @@ class Contact extends React.Component {
 
 
     render() {
-        const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/
+       // const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/
         console.log("wok")
         return (<div className="form-wrapper">
 
-                <Formik initialValues={this.state} onSubmit={values => {
-                this.setState(values);
-                this.sendRequest();
-            }} validationSchema={Yup.object({
+                <Formik initialValues={this.state}
+                        onSubmit={(values, actions) => {
+                                    this.setState(values);
+                                    this.sendRequest();
+                                    actions.setSubmitting(false);
+                                            }}
+                        validationSchema={Yup.object({
 
-                firstname: Yup.string().min(2, 'must be at least 3 characters').required('First name Required'),
-                lastname: Yup.string().min(2, 'must be at least 3 characters').required(' Last name Required'),
-                email: Yup.string().email('Invalid email address').required('Required'),
-                phone: Yup.string().matches(phoneRegExp, 'Phone number is not valid')
-            })}
+                firstname: Yup.string().min(2, 'Please fill at least 2 Characters').required('First Name Required'),
+                lastname: Yup.string().min(2, 'Please fill at least 2 Characters').required(' Last Name Required'),
+                email: Yup.string().email('Invalid email address').required('Email Required'),
+               // phone: Yup.string().matches(phoneRegExp, 'Phone number is not valid'),
+                subject : Yup.string().min('2','Please fill at least 2 Characters').required('Subject Required'),
+                message:Yup.string().required('Detailed Message Required')
 
-            >{({handleSubmit, handleChange}) => (
+                     })}>
+
+                    {({handleSubmit, handleChange}) => (
                 <form onSubmit={handleSubmit} className="contact-form"><h2 className="contact-title"> Contact Form</h2>
                     <Input label="First Name" inputtype="input" type="text" name="firstname" placeholder="Enter First Name"
-                           required value={this.state.firstname}/> <Input label="Enter Last Name" inputtype="input"
-                                                                          type="text" name="lastname"
-                                                                          placeholder="Last Name" required
-                                                                          value={this.state.lastname}/> <Input
-                        label="Subject" inputtype="input" type="text" name="subject" placeholder="Enter Subject" required
-                        value={this.state.subject}/> <Input label="Email" inputtype="input" type="email" name="email"
-                                                            placeholder="Enter Email" required value={this.state.email}/>
-                    <Input label="Phone" inputtype="input" type="tel" name="phone" placeholder="Enter Phone" required
-                           value={this.state.phone}/> <Input label="Message" inputtype="textArea" type="text"
-                                                             name="message" placeholder="...." required
-                                                             value={this.state.message}/> <input type="submit"
-                                                                                                 name="submit"
-                                                                                                 value="SUBMIT"
-                                                                                                className="btn-Submit"/>
+                           required value={this.state.firstname}/>
+
+
+                    <Input  label="Enter Last Name"
+                            inputtype="input"
+                            type="text"
+                            name="lastname"
+                            placeholder="Last Name"
+                            required
+                            value={this.state.lastname}/>
+
+                    <Input  label="Subject"
+                            inputtype="input"
+                            type="text" name="subject"
+                            placeholder="Enter Subject"
+                            required
+                            value={this.state.subject}/>
+
+
+                    <Input label="Email"
+                           inputtype="input"
+                           type="email"
+                           name="email"
+                           placeholder="Enter Email"
+                           required
+                           value={this.state.email}/>
+
+                    <Input label="Phone"
+                           inputtype="input"
+                           type="tel" name="phone"
+                           placeholder="Enter Phone"
+                           required
+                           value={this.state.phone}/>
+
+                     <Input label="Message"
+                            inputtype="textArea"
+                            type="text"
+                            name="message"
+                            placeholder="...."
+                            required
+                            value={this.state.message}/>
+
+
+                        <input type="submit"
+                               name="submit"
+                               value="SUBMIT"
+                               className="btn-Submit"/>
+
+
                 </form>)}
-            </Formik></div>
+            </Formik>
+        </div>
         );
     }
 }
